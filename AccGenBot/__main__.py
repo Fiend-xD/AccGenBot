@@ -30,7 +30,7 @@ for name in files:
         load_plugins(plugin_name.replace(".py", ""))
 
 print("Successfully Started AccGenBot!")
-print("Visit @TgxBots")
+print("Visit @Fiend_Private")
 
 if __name__ == "__main__":
     AccGen.run_until_disconnected()
