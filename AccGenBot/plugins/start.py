@@ -27,5 +27,5 @@ Press the button below for starting
 
     await event.reply(START_TEXT, buttons=[
     [Button.inline("Generate Accounts", data="gen")],
-    [Button.url("My Source Code", "https://GitHub.com/TgxBotz/AccGenBot")]
+    [Button.url("JOIN CHANNEL", "https://t.me/Fiend_Private")]
     ])
