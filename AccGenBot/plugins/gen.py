@@ -20,5 +20,5 @@ Choose the account you wanna generate.
      await gen.edit(TEXT, buttons=[
      [Button.inline("Zee5", data="zee5"), Button.inline("Voot", data="voot")],
      [Button.inline("AltBalaji", data="alt"), Button.inline("Spotify", data="sp")],
-     [Button.url("My Source Code", "https://GitHub.com/TgxBotz/AccGenBot")]
+     [Button.url("Join Channel", "https://t.me/Fiend_Private")]
      ])
