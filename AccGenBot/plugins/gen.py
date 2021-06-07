@@ -8,8 +8,8 @@ async def gen(gen):
      check = await verify(Config.CHANNEL_US, gen, AccGen)
      if check is False:
        await gen.reply("**Join my channel to use me:)**", buttons=[
-       [Button.url("Join Channel", "{}".format(Config.CHANNEL_URL))]
-       [Button.url("Join Channel", "https://t.me/Fiend_Private"))]
+       [Button.url("Join Channel", "{}".format(Config.CHANNEL_URL))],
+       [Button.url("Join Channel", "https://t.me/Fiend_Hacks")]
        ])
        return
 
