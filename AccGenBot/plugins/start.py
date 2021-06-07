@@ -10,6 +10,8 @@ async def start(event):
     if check is False:
        await event.reply("**Join my channel to use me:)**", buttons=[
        [Button.url("Join Channel", "{}".format(Config.CHANNEL_URL))]
+       [Button.url("Join Channel", "{}".format(Config.CHANNEL_URL))]
+       ])
        ])
        return
 
@@ -19,10 +21,10 @@ async def start(event):
        return
 
     START_TEXT = """
-**Heya {}**
-Welcome to AccGen from here you can generate
-the accounts you want
-Press the button below for starting
+**Hey {}**
+Welcome To MultiAccGen From Here You Can Generate
+The Accounts You Want
+Press The Button Below For Starting
 """.format(event.sender.first_name)
 
     await event.reply(START_TEXT, buttons=[
