@@ -10,7 +10,7 @@ async def start(event):
     if check is False:
        await event.reply("**Join my channel to use me:)**", buttons=[
        [Button.url("Join Channel", "{}".format(Config.CHANNEL_URL))],
-       [Button.url("Join Channel", "https://t.me/Fiend_Hacks"))]
+       [Button.url("Join Channel", "https://t.me/Fiend_Hacks")]
        ])
        return
 
