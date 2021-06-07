@@ -9,6 +9,8 @@ async def gen(gen):
      if check is False:
        await gen.reply("**Join my channel to use me:)**", buttons=[
        [Button.url("Join Channel", "{}".format(Config.CHANNEL_URL))]
+       [Button.url("Join Channel", "{}".format(Config.CHANNEL_URL))]
+       ])
        ])
        return
 
