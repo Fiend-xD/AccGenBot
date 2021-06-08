@@ -8,9 +8,10 @@ async def start(event):
     await AccGen.send_message(Config.LOGS_CHAT, f"Bot Started By {event.sender.first_name}")
     check = await verify(Config.CHANNEL_US, event, AccGen)
     if check is False:
-       await event.reply("**Join my channel to use me:)**", buttons=[
-       [Button.url("Join Channel", "{}".format(Config.CHANNEL_URL))],
-       [Button.url("Join Channel", "https://t.me/Fiend_Hacks")]
+       await event.reply("**Join All Below Channel Then /start Again To Use Me..!!:)**", buttons=[
+       [Button.url("★ Join Channel ★", "https://t.me/NETFLIX_PREMIUM_ZONE")],
+       [Button.url("★ Join Channel ★", "{}".format(Config.CHANNEL_URL))],
+       [Button.url("★ Join Channel ★", "https://t.me/Avengers_Era")]
        ])
        return
 
