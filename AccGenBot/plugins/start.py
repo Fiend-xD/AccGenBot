@@ -29,5 +29,5 @@ Press The Button Generate To Get Accounts Lists ☈**
 
     await event.reply(START_TEXT, buttons=[
     [Button.inline("Generate Accounts", data="gen")],
-    [Button.url("JOIN CHANNEL", "https://t.me/Fiend_Private")]
+    [Button.url("✘ Support ✘", "https://t.me/Fiend_Army")]
     ])
