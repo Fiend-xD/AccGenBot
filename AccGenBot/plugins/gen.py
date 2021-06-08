@@ -14,12 +14,13 @@ async def gen(gen):
        return
 
      TEXT = """
-**Heya {}**
-Choose the account you wanna generate.
+**Hey {}**
+
+☩ Choose The Account You Wanna Generate ☩
 """.format(gen.sender.first_name)
 
      await gen.edit(TEXT, buttons=[
      [Button.inline("Zee5", data="zee5"), Button.inline("Voot", data="voot")],
      [Button.inline("AltBalaji", data="alt"), Button.inline("Spotify", data="sp")],
-     [Button.url("Join Channel", "https://t.me/Fiend_Private")]
+     [Button.url("✘ Support ✘", "https://t.me/Fiend_Army")]
      ])
