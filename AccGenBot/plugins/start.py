@@ -21,10 +21,10 @@ async def start(event):
        return
 
     START_TEXT = """
-**Hey {}**
-Welcome To MultiAccGen From Here You Can Generate
-The Accounts You Want
-Press The Button Below For Starting
+**Hey {}
+Welcome To 𝗠𝗨𝗟𝗧𝗜 𝗔𝗖𝗖𝗢𝗨𝗡𝗧 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 
+✿ Here You Can Generate The Accounts You Want ✿
+Press The Button Generate To Get Accounts Lists ☈**
 """.format(event.sender.first_name)
 
     await event.reply(START_TEXT, buttons=[
